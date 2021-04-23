@@ -8,7 +8,7 @@ module AmiClient
   class AbstractMessage < Hashie::Mash
     MESSAGE_LINE_REGEX = /\A(\w+): (.*)\z/
 
-    attr_reader :type
+    attr_reader :parsed_from
 
     class << self
       # Convert a key from an AMI message into the name we will use for

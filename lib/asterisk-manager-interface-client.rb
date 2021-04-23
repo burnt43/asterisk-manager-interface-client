@@ -1,4 +1,5 @@
 require 'stringio'
+require 'socket'
 
 # TODO:
 # 2. have a 'warning class does not exist' so I know what message types to add

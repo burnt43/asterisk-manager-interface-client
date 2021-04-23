@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'asterisk-manager-interface-client'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.summary     = ''
   s.description = ''
   s.authors     = ['James Carson']
@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://tmpurl.com'
   s.files       = ['lib/asterisk-manager-interface-client.rb']
   s.license     = 'MIT'
-  s.add_runtime_dependency 'active_support'
+  s.add_runtime_dependency 'activesupport'
   s.add_runtime_dependency 'hashie'
 end
